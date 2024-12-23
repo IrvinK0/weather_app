@@ -1,0 +1,15 @@
+name: api_client
+description: An API Client for the OpenWeatherMap.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  http:
+
+dev_dependencies:
+  test:
+  mocktail:
+  flutter_lints: ^5.0.0

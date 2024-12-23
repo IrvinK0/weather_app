@@ -1,0 +1,35 @@
+name: flaconi_weather
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  intl: ^0.18.0
+  equatable:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  api_client:
+    path: packages/api_client
+  storage:
+    path: packages/storage
+  flutter_bloc:
+  bloc:
+  rxdart:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test:
+  mocktail:
+  bloc_test:
+  network_image_mock:
+
+flutter:
+  uses-material-design: true
